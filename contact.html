@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>A Preferred Snow Services, Inc. - Contact</title>
+<link href="snow.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="container">
+  <div class="content">
+  <header></header>
+  <nav>
+  <a href="index.html" alt="Home">HOME</a>
+  <a href="contact.html" alt="Contact">CONTACT US</a></nav>
+  <div class="form">
+  <h1>Contact Us</h1>
+  <table width="740" border="0">
+  <form action="contactProcess.php" method="POST">  
+  <tr>
+    <td valign="top">Is this an emergency?</td>
+    <td>
+     <input type="radio" name="emergency" value="yes">Yes<br>
+ 	 <input type="radio" name="emergency" value="no">No
+	</td>
+  </tr>
+    <tr>
+	<td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Name:</td>
+    <td><input name="firstName" type="text" size="20" placeholder="First" maxlength="20">&nbsp;<input name="lastName" type="text" size="20" placeholder="Last"  maxlength="20"></td>
+  </tr>
+  <tr>
+    <td>Email:</td>
+    <td><input name="email" type="text" size="40" maxlength="40" placeholder=""></td>
+  </tr>
+  <tr>
+    <td>Address:</td>
+    <td><input name="address1" type="text" size="40" placeholder="Street Address" maxlength="40"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="address2" type="text" size="40" placeholder="Address Line 2" maxlength="40"></td>
+  </tr>
+  <tr>
+    <td>City:</td>
+    <td><input name="city" type="text" size="30" maxlength="30"></td>
+  </tr>
+  <tr>
+    <td>Zip Code:</td>
+    <td><input name="zip" type="text" size="10" maxlength="10"></td>
+  </tr>
+  <tr>
+    <td>Phone Number:</td>
+    <td><input name="phone" type="text" size="3" maxlength="3">&nbsp;&ndash;&nbsp;<input name="phone2" type="text" size="3" maxlength="3">&nbsp;&ndash;&nbsp;<input name="phone3" type="text" size="4" maxlength="4"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="left" valign="top">Project Description:</td>
+    <td><textarea name="comments" cols="45" rows="8" placeholder="Enter project description here."></textarea></td>
+  </tr>
+  <tr>
+	<td></td>
+    <td></td>
+  </tr>
+  <tr>
+	<td></td>
+    <td><input type="submit" value="Submit"></td>
+  </tr>
+</table>
+</form>
+</div>
+  </div>
+  <footer>
+  &copy; 2013 A Prefered Snow Services, Inc.
+  </footer>
+</div>
+</body>
+</html>

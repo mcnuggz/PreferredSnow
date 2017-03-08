@@ -1,0 +1,191 @@
+@charset "utf-8";
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	height: 100%;
+}
+
+header {
+	background-image: url(images/header2.png);
+	height: 190px;
+	margin-top: -10px;
+}
+
+html {
+	background: #691865 no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+ul,
+ol,
+dl {
+	padding: 0;
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+a img {
+	border: none;
+}
+
+a {
+	margin-left: 25px;
+	font-weight: bold;
+}
+
+a:link {
+	color: #FFF;
+	font-size: larger;
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+
+a:hover,
+a:active,
+a:focus {
+	text-decoration: none;
+	color: #6681ff;
+}
+
+.container {
+	width: 960px;
+	background-color: #FFF;
+	margin: 0 auto;
+	min-height: 100%;
+	position: relative;
+}
+
+.content {
+	padding: 10px 0;
+	background-color: #FFF;
+	padding-bottom: 50px;
+	/* Height of the footer */
+	height: 860px;
+}
+
+.left {
+	width: 300px;
+	height: 600px;
+	float: left;
+	margin: 10px;
+	background-color: #FFF;
+}
+
+.right {
+	width: 600px;
+	height: 600px;
+	float: right;
+	margin: 10px;
+	background-color: #FFF;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	font-size: small;
+	background-color: #282828;
+	height: 30px;
+	color: #FFF;
+	position: absolute;
+	bottom: 0;
+	width: 960px;
+}
+
+.clear {
+	clear: both;
+}
+
+nav {
+	background-color: #282828;
+	height: 35px;
+	text-decoration: none;
+	font-size: larger;
+	padding-top: 5px;
+}
+
+.impact {
+	font-family: impact, arial;
+	font-size: 22px;
+}
+
+.contact {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.bbb {
+	margin-top: 130px;
+	margin-left: 260px;
+}
+
+.form {
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.services {
+	margin-left: 40px;
+	width: 300px;
+	float: left;
+	background-color: #FFF;
+}
+
+.information {
+	float: right;
+	width: 620px;
+	padding: 5px;
+	margin-left: -10px;
+	height: 640px;
+	background-color: #FFF;
+}
+
+.request {
+	width: 620px;
+	margin-top: 105px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	background-color: #FFF;
+}
+
+.services2 {
+	margin-left: 50px;
+	margin-top: 20px;
+	font-size: 12px;
+	font-weight: 800;
+	background-color: #FFF;
+}
+
+dt {
+	font-weight: 600;
+	font-size: 14px;
+}
+
+dd {
+	margin-left: 0px;
+	font-size: 14px;
+}
+
+p information {
+	width: 590px;
+	background-color: #FFF;
+}
